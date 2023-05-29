@@ -43,6 +43,11 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  grid-gap: 20px; /* Spacing between grid items */
+}
 
 .icon-amazon:before {
   content: "a";
