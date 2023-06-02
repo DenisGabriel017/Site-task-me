@@ -150,11 +150,12 @@ nav.navbar.fixed-to-top{
 /*-----------------------------------------------------------------------------------*/
 
 header{
-	padding: 150px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	height: 960px;
-	background: url('../img/nepal.jpg');
+	width: 100%;
+	background: url('../img/computador.jpeg');
 	background-color: white!important;
-	background-size: cover;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	color: white;
 }
@@ -234,13 +235,15 @@ header .carousel-indicators li {
 /*-----------------------------------------------------------------------------------*/
 
 .payoff{
-	overflow: hidden;
+	
 	padding: 230px 0px 150px 0px;
 	min-height: 600px;
-	background: url('../img/fotoparafundodoprojeto.png');
+	background: url('../img/foto-do-topo.jpg');
 	background-position: center top;
-	background-repeat: repeat-x;
 	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
 }
 
 .payoff h1{
